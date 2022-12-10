@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color:  azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin-top: 3px;
+}
+ 
+.div_t{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+}
+
+.div_botones{
+    width: 100%;
+    height: 330px;
+    overflow: hidden;
+    border: hidden;
+    word-wrap: break-word;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.div_contenedor_text {
+   display: inline-block;
+   height: 310px;
+   width: 21%;
+}
+
+.div_contenedor_text h2{
+    margin-top: 25px;
+}
+
+.div_contenedor_text p{
+   color: azure;
+   font-size: 25px;
+   margin-top: 23px;
+}
+
+.div_contenedor_botones1 {
+    display: inline-block;
+    height: 300px;
+    width: 20%;
+    margin-top: 25px;  
+}
+
+ .div_contenedor_botones2 {
+    display: inline-block;
+    height: 300px;
+    width: 20%;
+    margin-top: 25px;
+}
+
+ .div_contenedor_inputs_text {
+    display: inline-block;
+    height: 300px;
+    width: 20%;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+ .div_contenedor_inputs {
+    display: inline-block;
+    height: 300px;
+    width: 27%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 33%;
+}
+ 
+ .div_contenedor_inputs label{
+     font-size: 0px;
+}
+
+button{
+    margin-top: 5px;
+    height: 50px;
+    width: 70px;
+}
+
+input{
+    height: 50px;
+    width: 70px;
+    margin-top: 5px;
+}
+
+#contenedor_colores{
+    display: flex;
+}
+
+.div_contenedor_colores {
+    display: flex;
+    height: 285px;
+    width: 30%;
+    border: 1px solid black;
+    background-color: azure;
+    margin-top: 20px;
+}
+
+.div_contenedor_colores label {
+    color: black;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.div_contenedor_colores input{
+  height: 20PX;
+  display: none
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50PX;
+}
+
